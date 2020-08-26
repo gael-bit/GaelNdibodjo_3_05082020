@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="Page1.css"/>
 		<link rel="stylesheet" href="css/all.css" />
 		<link rel="stylesheet" href="css/main.css" />
-		<script src="https://kit.fontawesome.com/c9b787d21b.js" crossorigin="anonymous"></script>
+		<!--<script src="https://kit.fontawesome.com/c9b787d21b.js" crossorigin="anonymous"></script>-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 		<meta name="viewport" content="width=device-width"/>
-		<title></title>
+		<title>Ohmyfood-La note enchantée</title>
 	</head>
 
 	<body>
@@ -21,8 +22,12 @@
 		<div>
 			<article id="menu1">
 				<i id ="titre1" class="fas fa-music fa-5x"></i>
-				<p id="titre2">La note enchantée</p>
+				<h2 id="titre2">La note enchantée</h2>
 				<p class="categorie">Prélude</p>
+				<div class = "tiret">
+			            <p class="tiret__base tiret--1">-------------------</p>
+			            <p class="tiret__base tiret--2">-------------------</p>
+		            </div>
 				<div class="choix">
 					<p class="plat">Ravioles de foie gras accompagnés de leur crème à la truffe</p>
 					<p class="prix">98€</p>
@@ -41,6 +46,10 @@
 				</div>
 				
 				<p class="categorie">Point d'orgue</p>
+				<div class = "tiret">
+		            <p class="tiret__base tiret--1">------------------</p>
+		            <p class="tiret__base tiret--2">------------------</p>
+	            </div>
 				<div class="choix">
 					<p class="plat">Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</p>
 					<p class="prix">102€</p>
@@ -54,6 +63,10 @@
 					<p class="prix">169€</p>
 				</div>
 				<p class="categorie">Mouvement final</p>
+				<div class = "tiret">
+		            <p class="tiret__base tiret--1">----------------</p>
+		            <p class="tiret__base tiret--2">----------------</p>
+	            </div>
 				<p class="plat">Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</p>
 				<p class="plat">Baba au rhum revisité avec son coulis de citron</p>
 				<p class="plat">Tarte au citron meringuée destructurée</p>
@@ -65,8 +78,8 @@
 		
 
 		<footer>
-			<p id="rubrique1">Mentions légales</p>
-			<p id="rubrique2">Contactez-nous</p>
+			<a class="mentionLegal" href="mention_legal.html"><p id="rubrique1">Mentions légales</p></a>
+			<a class="contact" href="contact.html"><p id="rubrique2">Contactez-nous</p></a>
 		</footer>
 	</body>
 

@@ -47,13 +47,12 @@ body {
 #rubrique1{
 	margin-left: 1%;
 	color: #FFC107;
-	font-size: 1.1em;
+	font-size: 1.5em;
 	font-family: Trebuchet MS;
 }
 #rubrique2{
-	margin-right: 1%;
 	color: #FFC107;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-family: Trebuchet MS;
 }
 .titreMenu{
@@ -73,7 +72,7 @@ body {
 	margin-top: -4%;
 	box-shadow: 0px 0px 20px #BDBDBD;
 }
-#titre{
+#titre2{
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -94,11 +93,19 @@ body {
 	font-family: 'Georgia';
 	font-weight: bold;
 }
-.categorie:before{
-	content: "-----------------------------";
+.tiret{
+  display: flex;
+  justify-content: space-around;
 }
-.categorie:after{
-	content: "-----------------------------";
+.tiret--1{
+  margin-top: -6.5%;
+  font-size: 3em;
+  color:#c67412;
+}
+.tiret--2{
+  margin-top: -6.5%;
+  font-size: 3em;
+  color:#c67412;
 }
 #categorie1{
 	color:#c67412;
@@ -124,6 +131,14 @@ body {
 	font-size: 1.3em;
 	font-family: 'Georgia';
 }
+.mentionLegal{
+	margin-left: 1%;
+	width: 16%;
+}
+.contact{
+	width: 12%;
+}
+
 a{
 	 text-decoration:none;
 	 color: black;
@@ -141,9 +156,9 @@ a{
 	.titreMenu{
 		margin-top: -10%;
 	}
-	#titre{
+	#titre2{
 		margin-top: -0.3%;
-		font-size: 2.2em;
+		font-size: 1.8em;
 	}
 	.categorie{
 		display:flex;
@@ -154,11 +169,14 @@ a{
 		font-weight: bold;
 		font-family: 'Kalam';
 	}
-	.categorie:before{
-		content: "-------";
+	.tiret--1{
+	  margin-top: -12.5%;
+	  font-size: 1em;
 	}
-	.categorie:after{
-		content: "-------";
+	.tiret--2{
+		margin-left: 50%;
+	  margin-top: -12.5%;
+	  font-size: 1em;
 	}
 	.plat{
 		margin-left: 10%;
@@ -173,6 +191,13 @@ a{
 	}
 	#rubrique2{
 		font-size: 1.2em;
+	}
+	.mentionLegal{
+		margin-left: 2%;
+		width: 40%;
+	}
+	.contact{
+		width: 40%;
 	}
 }
 @media screen and (min-width: 420px) and (max-width: 620px){
@@ -188,18 +213,21 @@ a{
 	.titreMenu{
 		margin-top: -10%;
 	}
-	#titre{
+	#titre2{
 		margin-top: -0.3%;
 		font-size: 2.5em;
 	}
 	.categorie{
 		font-size: 1.5em;
 	}
-	.categorie:before{
-		content: "-----";
+	.tiret--1{
+	  margin-top: -11.5%;
+	  font-size: 1.1em;
 	}
-	.categorie:after{
-		content: "-----";
+	.tiret--2{
+		margin-left: 50%;
+	  margin-top: -11.5%;
+	  font-size: 1.1em;
 	}
 	.plat{
 		margin-left: 10%;
@@ -214,6 +242,13 @@ a{
 	}
 	#rubrique2{
 		font-size: 1.2em;
+	}
+	.mentionLegal{
+		margin-left: 2%;
+		width: 33%;
+	}
+	.contact{
+		width: 33%;
 	}
 }
 @media screen and (min-width: 620px) and (max-width: 920px){
@@ -229,18 +264,21 @@ a{
 	.titreMenu{
 		margin-top: -6%;
 	}
-	#titre{
+	#titre2{
 		margin-top: -0.3%;
 		font-size: 3.2em;
 	}
 	.categorie{
 		font-size: 1.5em;
 	}
-	.categorie:before{
-		content: "-------------";
+	.tiret--1{
+	  margin-top: -7.5%;
+	  font-size: 1.1em;
 	}
-	.categorie:after{
-		content: "-------------";
+	.tiret--2{
+		margin-left: 40%;
+	  margin-top: -7.5%;
+	  font-size: 1.1em;
 	}
 	.plat{
 		margin-left: 10%;
@@ -255,6 +293,13 @@ a{
 	}
 	#rubrique2{
 		font-size: 1.2em;
+	}
+	.mentionLegal{
+		margin-left: 2%;
+		width: 30%;
+	}
+	.contact{
+		width: 23%;
 	}
 }
 @media screen and (min-width: 920px) and (max-width: 1024px){
@@ -270,7 +315,7 @@ a{
 	.titreMenu{
 		margin-top: -6%;
 	}
-	#titre{
+	#titre2{
 		margin-top: -0.3%;
 		font-size: 4.2em;
 		padding-top: 8%;
@@ -278,11 +323,14 @@ a{
 	.categorie{
 		font-size: 1.7em;
 	}
-	.categorie:before{
-		content: "--------------------";
+	.tiret--1{
+	  margin-top: -6.5%;
+	  font-size: 1.5em;
 	}
-	.categorie:after{
-		content: "--------------------";
+	.tiret--2{
+		margin-left: 10%;
+	  margin-top: -6.5%;
+	  font-size: 1.5em;
 	}
 	.plat{
 		margin-left: 10%;
@@ -293,10 +341,17 @@ a{
 		font-size: 1.3em;
 	}
 	#rubrique1{
-		font-size: 1.6em;
+		font-size: 1.5em;
 	}
 	#rubrique2{
-		font-size: 1.6em;
+		font-size: 1.5em;
+	}
+	.mentionLegal{
+		margin-left: 2%;
+		width: 23%;
+	}
+	.contact{
+		width: 22%;
 	}
 }
 @media screen and (min-width: 1024px) and (max-width: 1280px){
@@ -312,7 +367,7 @@ a{
 	.titreMenu{
 		margin-top: -6%;
 	}
-	#titre{
+	#titre2{
 		margin-top: -0.3%;
 		font-size: 4.5em;
 		padding-top: 10%;
@@ -320,11 +375,14 @@ a{
 	.categorie{
 		font-size: 1.9em;
 	}
-	.categorie:before{
-		content: "------------------";
+	.tiret--1{
+	  margin-top: -6.5%;
+	  font-size: 1.9em;
 	}
-	.categorie:after{
-		content: "------------------";
+	.tiret--2{
+		margin-left: 12%;
+	  margin-top: -6.5%;
+	  font-size: 1.9em;
 	}
 	.plat{
 		margin-left: 10%;
@@ -335,22 +393,37 @@ a{
 		font-size: 1.3em;
 	}
 	#rubrique1{
-		font-size: 1.3em;
+		font-size: 1.5em;
 	}
 	#rubrique2{
-		font-size: 1.3em;
+		font-size: 1.5em;
+	}
+	.mentionLegal{
+		margin-left: 2%;
+		width: 24%;
+	}
+	.contact{
+		width: 18%;
 	}
 }
 @media screen and (min-width: 1280px) and (max-width: 1440px){
 	
-	.categorie:before{
-		content: "---------------------";
+	.tiret--1{
+	  margin-top: -6.5%;
+	  font-size: 1.7em;
 	}
-	.categorie:after{
-		content: "---------------------";
+	.tiret--2{
+	  margin-top: -6.5%;
+	  font-size: 1.7em;
 	}
 	#menu2{
 		margin-bottom: 15%;
 	}
-	
+	.mentionLegal{
+		margin-left: 2%;
+		width: 24%;
+	}
+	.contact{
+		width: 15%;
+	}
 }

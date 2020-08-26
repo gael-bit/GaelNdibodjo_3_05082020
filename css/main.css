@@ -1,21 +1,26 @@
-.load {
-  display: flex;
-  margin-top: -8.5%;
-}
 .load__point {
+  display: block;
   color: #FFC107;
-  font-size: 8em;
-  height: 70%;
-  animation: point 1500ms infinite;
+  font-size: 1em;
+  animation: point 1800ms infinite;
 }
 .load__point--1 {
-  animation-delay: 500ms;
+  animation-delay: 600ms;
 }
 .load__point--2 {
-  animation-delay: 1000ms;
+  animation-delay: 1200ms;
 }
 .load__point--3 {
-  animation-delay: 1500ms;
+  animation-delay: 1800ms;
+}
+
+.categorie:hover + .tiret > .tiret--1 {
+  animation: souligne 1000ms;
+  transform-origin: 0% 50%;
+}
+.categorie:hover + .tiret > .tiret--2 {
+  animation: souligne 1000ms;
+  transform-origin: 100% 50%;
 }
 
 #rubrique1 {
@@ -26,12 +31,51 @@
   animation: wiggle 3s infinite;
 }
 
+#titre1 {
+  animation: zoom 3500ms infinite;
+}
+
+#titre2 {
+  animation: zoom 3500ms infinite;
+}
+
+#titre3 {
+  animation: zoom 3500ms infinite;
+}
+
+#titre4 {
+  animation: zoom 3500ms infinite;
+}
+
+#titre5 {
+  animation: zoom 3500ms infinite;
+}
+
+#titre6 {
+  animation: zoom 3500ms infinite;
+}
+
+#titre7 {
+  animation: zoom 3500ms infinite;
+}
+
+#titre8 {
+  animation: zoom 3500ms infinite;
+}
+
+#titre9 {
+  animation: zoom 3500ms infinite;
+}
+
 @keyframes point {
   0% {
     transform: scale(1);
   }
+  50% {
+    transform: translate(0px, -22px) scale(1.7);
+  }
   100% {
-    transform: scale(1.5);
+    transform: scale(1);
   }
 }
 @keyframes wiggle {
@@ -49,5 +93,27 @@
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+@keyframes souligne {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }
