@@ -15,12 +15,14 @@
 }
 
 .categorie:hover + .tiret > .tiret--1 {
-  animation: souligne 1000ms;
+  animation: souligne 800ms;
   transform-origin: 0% 50%;
+  color: black;
 }
 .categorie:hover + .tiret > .tiret--2 {
-  animation: souligne 1000ms;
+  animation: souligne 800ms;
   transform-origin: 100% 50%;
+  color: black;
 }
 
 #rubrique1 {
@@ -98,9 +100,11 @@
 @keyframes souligne {
   0% {
     transform: scaleX(0);
+    opacity: 0;
   }
   100% {
     transform: scaleX(1);
+    opacity: 1;
   }
 }
 @keyframes zoom {
