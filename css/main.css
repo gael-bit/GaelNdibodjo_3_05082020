@@ -33,39 +33,7 @@
   animation: wiggle 3s infinite;
 }
 
-#titre1 {
-  animation: zoom 3500ms infinite;
-}
-
-#titre2 {
-  animation: zoom 3500ms infinite;
-}
-
-#titre3 {
-  animation: zoom 3500ms infinite;
-}
-
-#titre4 {
-  animation: zoom 3500ms infinite;
-}
-
-#titre5 {
-  animation: zoom 3500ms infinite;
-}
-
-#titre6 {
-  animation: zoom 3500ms infinite;
-}
-
-#titre7 {
-  animation: zoom 3500ms infinite;
-}
-
-#titre8 {
-  animation: zoom 3500ms infinite;
-}
-
-#titre9 {
+#titre1, #titre2, #titre3, #titre4, #titre5, #titre6, #titre7, #titre8, #titre9 {
   animation: zoom 3500ms infinite;
 }
 
